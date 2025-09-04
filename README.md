@@ -25,7 +25,6 @@ https://Vishall08.github.io/gh-deployment-workflow/
 - Continuous Deployment (CD)
 - Writing custom GitHub workflows
 
-📖 Reference
 
 ## 📖 Reference  
 
