@@ -2,10 +2,61 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Hello GitHub Actions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My GitHub Actions Site</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello!!!!</h1>
-  <h2> This is my first github actions deployment</h2>
+  <!-- Header Section -->
+  <header>
+    <nav>
+      <h1 class="logo">🚀 CI/CD Demo</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h2>Hello, GitHub Actions!</h2>
+      <p>This site is deployed automatically using <strong>CI/CD</strong> with GitHub Actions & GitHub Pages.</p>
+      <a href="#about" class="btn">Learn More</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2>About This Project</h2>
+    <p>
+      This project demonstrates Continuous Integration and Continuous Deployment (CI/CD) with GitHub Actions.
+      Every time the <code>index.html</code> file is updated, the workflow runs and redeploys this website
+      to GitHub Pages automatically.
+    </p>
+    <div class="cards">
+      <div class="card">
+        <h3>⚙️ CI/CD</h3>
+        <p>Automated workflows triggered by Git pushes.</p>
+      </div>
+      <div class="card">
+        <h3>🌍 GitHub Pages</h3>
+        <p>Free hosting for static websites directly from GitHub.</p>
+      </div>
+      <div class="card">
+        <h3>💡 Learning</h3>
+        <p>Understand how software delivery pipelines work in real projects.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section dark">
+    <h2>Contact</h2>
+    <p>If you'd like to connect, reach me on <a href="https://github.com/<username>" target="_blank">GitHub</a>.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 My GitHub Actions Project | Built with ❤️ and GitHub Actions</p>
+  </footer>
 </body>
 </html>
